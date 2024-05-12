@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/black"
@@ -8,7 +9,8 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp"
-    tools:context=".UpdateCard">
+    tools:context=".UpdateCard"
+    android:backgroundTint="#004A3C">
 
     <TextView
         android:layout_width="match_parent"
@@ -22,15 +24,14 @@
 
     <EditText
         android:id="@+id/create_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Task"
+        android:layout_width="374dp"
+        android:layout_height="115dp"
         android:layout_marginTop="30dp"
-        android:padding="15dp"
         android:background="@drawable/custom_edittetext"
-        android:textColorHint="#BFBBBB"
+        android:hint="Enter Task"
+        android:padding="15dp"
         android:textColor="@color/white"
-        />
+        android:textColorHint="#BFBBBB" />
 
     <EditText
         android:id="@+id/create_priority"
