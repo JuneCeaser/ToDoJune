@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">todo</string>
     <string name="today">Today</string>
+    <string name="your_task">Your Task</string>
+    <string name="clear_all">Clear all</string>
+    <string name="todo">TODO</string>
 </resources>
